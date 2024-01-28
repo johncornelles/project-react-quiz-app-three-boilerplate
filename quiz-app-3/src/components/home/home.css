@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(71, 58, 141);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.play-btn {
+    background-color: rgb(10, 179, 6);
+    padding: 7px 80px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+}
+
+.home-div {
+    margin: 45vh 0px;
+}
