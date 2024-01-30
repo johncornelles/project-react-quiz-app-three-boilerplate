@@ -1,0 +1,55 @@
+.quiz-div {
+    background-color: aliceblue;
+    color: black;
+    height: 70vh;
+    width: 70vw;
+    text-align: center;
+    padding: 40px;
+    border-left: 5px solid #9580ff;
+    margin-bottom: 40vh;
+}
+
+.quetion-number {
+    text-align: left;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 7vh;
+}
+
+.answer {
+    background-color: rgb(30, 161, 241);
+    border-radius: 20px;
+}
+
+.controls {
+    margin-top: 30px;
+}
+
+.control {
+    border-radius: 0px;
+    margin-right: 20px;
+    color: black;
+}
+
+.question {
+    margin-bottom: 12vh;
+}
+
+.previous {
+    background-color: rgb(62, 126, 170);
+}
+
+.next {
+    background-color: #008001;
+}
+
+.quit {
+    background-color: #ff0000;
+}
+.finish{
+    color: white;
+}

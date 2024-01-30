@@ -3,6 +3,7 @@ import './result.css';
 import { Link } from 'react-router-dom';
 
 const Result = (props) => {
+    
   let { score, attempted } = props
     const percentage = ((score / 15) * 100).toFixed(0);
     return (

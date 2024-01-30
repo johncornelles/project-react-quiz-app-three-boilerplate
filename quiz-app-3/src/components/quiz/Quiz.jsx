@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './quiz.css';
 import { Link } from 'react-router-dom';
 
@@ -37,7 +37,7 @@ const Quiz = (props) => {
         }
         setAnswers(newAnswer);
 
-        if (newAnswer[qno] !== '') {
+        if (newAnswer[qno] !== '' && answers[qno] === '') {
             setAttempted(prev => prev < 15 && prev + 1);
         }
 
